@@ -17,3 +17,9 @@ class template
     return $this->CI->load->view($template, $this->template_data, $return);
   }
 }
+
+
+//call at template file - views
+//tempatkan di bagian bawah sebelum penutup </body>
+          <?php echo $contents ?>
+        
